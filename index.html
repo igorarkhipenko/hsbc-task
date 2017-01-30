@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS LOAD -->
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
+	<link rel="stylesheet" href="style.css" />
+
+	<!-- SCRIPT LOAD -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+	<script src="js/myCtrl.js"></script>
+	<script src="js/ConvertFactory.js"></script>
+
+	<!-- APP HEADER -->
+	<header class="jumbotron text-center">
+		<h2>🔢 Integer to Roman Numerals converter</h2>
+	</header>
+
+	<!-- MAIN CONTENT AND INJECTED VIEW -->
+	<body>
+
+		<ng-view></ng-view>
+
+	</body>
+</html>
